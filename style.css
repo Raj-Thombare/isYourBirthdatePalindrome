@@ -1,7 +1,17 @@
 body {
-    margin: 0rem auto;
+    box-sizing: border-box;
+    margin: .5rem auto;
     text-align: center;
-    font-size: 1.3rem;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 94vh;
+    background: linear-gradient(90deg,#cd2d3d,#ef473a);
 }
 
 button {
@@ -9,10 +19,43 @@ button {
     padding: 10px 20px;
     display: block;
     border-radius: 3px;
-    border: 1px solid royalblue;
+    background-color: transparent;
+    color: inherit;
+    font-size: 1.1rem;
+    border: 2px solid white;
     cursor: pointer;
+    transition: all 0.25s ease-in-out 0s;
+}
+
+button:hover {
+   background-color: white;
+   color: red; 
 }
 
 #output {
     font-size: 1.3rem;
+    padding: 2rem;
+}
+
+footer {
+    min-height: 6vh;
+    position: fixed;
+    bottom: 0px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+footer ul li {
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+footer ul li a {
+    color: white;
 }
