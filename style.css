@@ -1,0 +1,18 @@
+body {
+    margin: 0rem auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+button {
+    margin: 2rem auto;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 3px;
+    border: 1px solid royalblue;
+    cursor: pointer;
+}
+
+#output {
+    font-size: 1.3rem;
+}
