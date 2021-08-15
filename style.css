@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Permanent+Marker&display=swap');
+
+* {
+    font-family: 'Merienda', cursive;
+}
+
 body {
     box-sizing: border-box;
     margin: .5rem auto;
@@ -12,6 +18,10 @@ body {
     justify-content: center;
     height: 94vh;
     background: linear-gradient(90deg,#cd2d3d,#ef473a);
+}
+
+input {
+    padding: 5px 10px;
 }
 
 button {
